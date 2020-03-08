@@ -7,6 +7,7 @@ line= " "
 for p in fp_content:
     if p not in punct:
         line= line + p
+line = line.split()
 for x in line:
     if x not in list:
         list.append(x)
